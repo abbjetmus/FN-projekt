@@ -36,10 +36,18 @@ I del två på kursen så använder dem Python men vi kommer hoppa över den del
 
 <img src="./images/udacity-sql-lessons.png"></img>
 
-W3Schools har också bra information om SQL!
+W3Schools har också bra information om SQL och testar i online miljö!
 <a href="https://www.w3schools.com/sql/default.asp">https://www.w3schools.com/sql/default.asp</a>
 
-<a href="https://www.studytonight.com/dbms/database-normalization.php">Studytonight https://www.studytonight.com/dbms/database-normalization.php</a> bra SQL resurser speciellt om normaliseringsreglerna.
+<a href="https://www.freecodecamp.org/news/what-is-sql-database-definition-for-beginners/">https://www.freecodecamp.org/news/what-is-sql-database-definition-for-beginners/</a>
+
+### För information on normaliseringsreglerna se
+
+Bra SQL resurser speciellt om normaliseringsreglerna.  
+<a href="https://www.studytonight.com/dbms/database-normalization.php">https://www.studytonight.com/dbms/database-normalization.php</a>
+<a href="https://www.guru99.com/database-normalization.html">https://www.guru99.com/database-normalization.html</a>
+
+# PostgresSQL
 
 För att använda PostgresSQL på era datorer så behöver vi installera det enligt följande länk. Ni behöver troligtvis admin hjälp från lärare vid installationen.
 
@@ -47,12 +55,14 @@ https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql
 
 https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/
 
+# Grupp-uppgift del 1.
+
 När kursen är klar för alla i basgruppen ska ni skapa ett databas/relationsdiagram för er applikation. Dvs ni ska bryta ner vilka entiteter/objekt som ingår och deras relationer.
 
 - Vilka tabeller och kolumner
 - Data typer på kolumnerna
 - Primary-keys och Foreign-keys för varje tabell
-- Uppfylla normaliseringsreglerna
+- Uppfylla de 4 första normaliseringsreglerna
 
 Exempel på ett diagram ett DVD film-hyrningstjänst.
 
