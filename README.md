@@ -44,7 +44,7 @@ W3Schools har också bra information om SQL och testar i online miljö!
 ### För information on normaliseringsreglerna se
 
 Bra SQL resurser speciellt om normaliseringsreglerna.  
-<a href="https://www.studytonight.com/dbms/database-normalization.php">https://www.studytonight.com/dbms/database-normalization.php</a>
+<a href="https://www.studytonight.com/dbms/database-normalization.php">https://www.studytonight.com/dbms/database-normalization.php</a><br><br>
 <a href="https://www.guru99.com/database-normalization.html">https://www.guru99.com/database-normalization.html</a>
 
 # PostgresSQL
