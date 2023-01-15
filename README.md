@@ -52,6 +52,7 @@ När kursen är klar för alla i basgruppen ska ni skapa ett databas/relationsdi
 - Vilka tabeller och kolumner
 - Data typer på kolumnerna
 - Primary-keys och Foreign-keys för varje tabell
+- Uppfylla normaliseringsreglerna
 
 Exempel på ett diagram ett DVD film-hyrningstjänst.
 
@@ -75,8 +76,6 @@ Vue 3 är den senaste versionen av Vue och versionen vi kommer att använda.
 
 ## Intro
 
-Nästa del i vår JavaScript resa är att lära oss om Vue.js för att enklare och snabbare kunna utveckla applikationer.
-
 - Vue är ett progressivt open-source ramverk för att bygga användargränssnitt, till en början utvecklad av en Google avhoppare som heter Evan You, men underhålls idag av ett team.
 
 - Core delen av ramverket är endast fokuserat på visningsskiktet och är enkelt att komma igång med.
@@ -93,7 +92,7 @@ Nästa del i vår JavaScript resa är att lära oss om Vue.js för att enklare o
 
 ## Steg 1
 
-Börja med att hämta ner powerpointen med namnet Vue.pptx och gå igenom innehållet på länken **Vue 3 Hands On** och lös övningsuppgifterna där. Vill man titta på en Youtube video om Vue 3 rekommenderas ** Vue 3 With Danny**.  
+Börja med att hämta ner powerpointen med namnet Vue.pptx och gå igenom innehållet på länken **Vue 3 Hands On** och lös övningsuppgifterna där. Vill man titta på en Youtube video om Vue 3 rekommenderas **Vue 3 With Danny**.  
 <br>
 
 - [Vue 3 Hands On](https://vuejs.org/tutorial/#step-1)
