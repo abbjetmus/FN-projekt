@@ -83,6 +83,9 @@ För att skapa ett sådant diagram kan ni använda webbsidan: <a href="https://a
 # VUE
 
 Vue 3 är den senaste versionen av Vue och versionen vi kommer att använda.
+När vi jobbar med Vue 3 som ska man använda extension Volar istället för Vetur, så ni kan avinstallera Vetur.
+
+<img src="./images/vetur.png"/>
 
 ## Intro
 
