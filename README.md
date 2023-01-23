@@ -72,21 +72,21 @@ För att skapa ett sådant diagram kan ni använda webbsidan: <a href="https://a
 
 # 2. Webbtjänster med Node & Express, och ORM (Object Relational Mapper) med Prisma
 
-## Övning 1.
+## Node & Express
 
 1. Gå igenom innehållet under Resurser-länkarna nedan som beskriver hur man skapar webbtjänster med Node och Express.
 2. Skapa sedan ett API dvs en Node-Express-app som kommunicerar med DVD databasen som ni skapade i del 1 i PostgresSQL.
 3. Ni ska skapa api-request som kan göra alla CRUD operationerna på en valfri tabell.
-4. När ni gör api-anrop installera en Visual Studio Code extension som heter.
+4. När ni gör api-anrop installera en Visual Studio Code extension som heter Thunder Client och använd det.
 
 <img src="./images/thunder-client.png"></img>
 
 Dvs CRUD:
 
-- **Create** - Skapa en ny rad med data i tabellen
+- **Create** - Skapa en ny rad med data i tabellen.
 - **Read** - Läsa data från tabellen.
-- **Update** - Uppdatera en värden i en rad.
-- **Delete** - Radera en rad.
+- **Update** - Uppdatera ett värde i en rad.
+- **Delete** - Radera en rad från tabellen.
 
 ### Resurser
 
@@ -94,16 +94,26 @@ Dvs CRUD:
 
 <a href="https://blog.logrocket.com/crud-rest-api-node-js-express-postgresql/">CRUD REST API with Node.js, Express, and PostgreSQL</a>
 
-## Övning 2.
+## ORM & Prisma
 
 Prisma är ett ORM (Object-Relational-Mapper).
 
-- Det den gör är att vi kan skapa classer med egenskaper i JavaScript.
-- Sedan kan vi använda Prisma för skapa databasen åt oss, det gör Prisma genom att omvandla classerna till tabeller.
-- Prisma ger oss också JavaScript funktioner som hämtar data från databasen istället för att skriva SQL querys.
+Kort beskrivning om ORM att läsa: <a href="https://www.freecodecamp.org/news/what-is-an-orm-the-meaning-of-object-relational-mapping-database-tools/">https://www.freecodecamp.org/news/what-is-an-orm-the-meaning-of-object-relational-mapping-database-tools/</a>
+
+Processen när man använder ett ORM:
+
+- Vi kan skapa classer med egenskaper i JavaScript.
+- Sedan kan vi använda Prisma (ORM) för skapa databasen åt oss, det gör Prisma genom att omvandla classerna till tabeller och egenskaperna till kolumner på tabellen.
+- Prisma ger oss också JavaScript funktioner som vi kan använda för CRUD-operation på databasen istället för att skriva SQL querys.
+
+Att göra:
 
 1. Gå igenom innehållet under Resurser-länkarna nedan som beskriver hur man skapar webbtjänster med Prisma.
-2. Skapa sedan ett API dvs en Node-Express-app som kommunicerar med DVD databasen som ni skapade i del 1 i PostgresSQL.
+2. Definera sedan klasser för tabellerna i ert relationsdiagram från DEL 1 och dess relationer.
+   Alla ska göra övningen även fast ni i slutändan kommer använda en kopia av er databas.
+3. Skapa sedan databasen för klasserna. Då borde ni se en ny databas i PgAdmin.
+4. Skapa sedan api-request som kan göra alla CRUD operationerna på en valfri tabell likt förra delen.
+   Här ska JavaScript funktioner användas och inte SQL frågor som förra delen använde.
 
 ### Resurser
 
