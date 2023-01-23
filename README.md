@@ -72,7 +72,40 @@ För att skapa ett sådant diagram kan ni använda webbsidan: <a href="https://a
 
 # 2. Webbtjänster med Node & Express, och ORM (Object Relational Mapper) med Prisma
 
+## Övning 1.
+
+1. Gå igenom innehållet under Resurser-länkarna nedan som beskriver hur man skapar webbtjänster med Node och Express.
+2. Skapa sedan ett API dvs en Node-Express-app som kommunicerar med DVD databasen som ni skapade i del 1 i PostgresSQL.
+3. Ni ska skapa api-request som kan göra alla CRUD operationerna på en valfri tabell.
+4. När ni gör api-anrop installera en Visual Studio Code extension som heter.
+
+<img src="./images/thunder-client.png"></img>
+
+Dvs CRUD:
+
+- **Create** - Skapa en ny rad med data i tabellen
+- **Read** - Läsa data från tabellen.
+- **Update** - Uppdatera en värden i en rad.
+- **Delete** - Radera en rad.
+
+### Resurser
+
+<a href="https://www.youtube.com/watch?v=-MTSQjw5DrM">Fireship om Restful API med Node & Express</a>
+
 <a href="https://blog.logrocket.com/crud-rest-api-node-js-express-postgresql/">CRUD REST API with Node.js, Express, and PostgreSQL</a>
+
+## Övning 2.
+
+Prisma är ett ORM (Object-Relational-Mapper).
+
+- Det den gör är att vi kan skapa classer med egenskaper i JavaScript.
+- Sedan kan vi använda Prisma för skapa databasen åt oss, det gör Prisma genom att omvandla classerna till tabeller.
+- Prisma ger oss också JavaScript funktioner som hämtar data från databasen istället för att skriva SQL querys.
+
+1. Gå igenom innehållet under Resurser-länkarna nedan som beskriver hur man skapar webbtjänster med Prisma.
+2. Skapa sedan ett API dvs en Node-Express-app som kommunicerar med DVD databasen som ni skapade i del 1 i PostgresSQL.
+
+### Resurser
 
 <a href="https://www.dawsoncodes.com/posts/5/building-a-rest-api-with-prisma-and-expressjs">Prisma tutorial</a>
 
