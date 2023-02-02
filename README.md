@@ -117,6 +117,8 @@ Att göra:
 
 ### Resurser
 
+<a href="https://www.prisma.io/">https://www.prisma.io/</a>
+
 <a href="https://www.dawsoncodes.com/posts/5/building-a-rest-api-with-prisma-and-expressjs">Prisma tutorial</a>
 
 <a href="https://www.youtube.com/watch?v=HCJmlvgO2WY">Prisma video tutorial</a>
